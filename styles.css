@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.search-bar input {
+    padding: 5px;
+    width: 250px;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Add a gradient background instead of the image */
+    background: linear-gradient(45deg, #eb3c97, #dcd351);
+    height: 300px;
+    color: #ffffff; /* Keep text white for contrast */
+    text-align: center;
+}
+
+/* Add some text shadow for better readability */
+.banner h2, 
+.banner h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the button to match the new color scheme */
+.banner button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner button:hover {
+    background-color: #f8f8f8;
+}
+
+.new-user-offer {
+    text-align: center;
+    background: #f5f5f5;
+    padding: 20px;
+}
+.code {
+    font-weight: bold;
+    color: red;
+}
+.brands-section {
+    padding: 20px;
+}
+.brands-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.brand-card {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+.brand-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.nav-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+
+}
+/* Shop by Category Section */
+.shop-by-category {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.shop-by-category h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+/* Category Grid */
+.category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Category Cards */
+.category-card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Category Label */
+.category-label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 85, 0, 0.9), rgba(255, 85, 0, 0.7));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.category-label p {
+    margin: 5px 0;
+}
+
+/* Discount & Shop Now */
+.discount {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.shop-now {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: left;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
